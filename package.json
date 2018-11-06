@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-wolox-vue",
+  "version": "1.0.0",
+  "description": "es-lint configuration used at wolox for Vue projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wolox/eslint-config-wolox-vue.git"
+  },
+  "keywords": [
+    "esLint",
+    "esLintConfig"
+  ],
+  "author": "Front-End Army <gabriel.zanzotti@wolox.com.ar>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wolox/eslint-config-wolox-vue/issues"
+  },
+  "homepage": "https://github.com/Wolox/eslint-config-wolox-vue#readme"
+}
