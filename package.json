@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Wolox/eslint-config-wolox-vue#readme",
   "dependencies": {},
-  "devDependencies": {
+  "peerDependencies": {
     "eslint-config-wolox": "^2.0.6"
   }
 }
