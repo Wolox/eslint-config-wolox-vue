@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/Wolox/eslint-config-wolox-vue/issues"
   },
-  "homepage": "https://github.com/Wolox/eslint-config-wolox-vue#readme"
+  "homepage": "https://github.com/Wolox/eslint-config-wolox-vue#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-wolox": "^2.0.6"
+  }
 }
