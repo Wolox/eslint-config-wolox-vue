@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wolox-vue",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "es-lint configuration used at wolox for Vue projects.",
   "main": "index.js",
   "scripts": {
