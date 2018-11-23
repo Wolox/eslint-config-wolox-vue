@@ -9,7 +9,7 @@ module.exports = {
     "vue/no-duplicate-attributes": "error",
     "vue/no-parsing-error": "error",
     "vue/no-reserved-keys": "error",
-    "vue/no-shared-component-dat": "error",
+    "vue/no-shared-component-data": "error",
     "vue/no-side-effects-in-computed-properties": "error",
     "vue/no-template-key": "error",
     "vue/no-textarea-mustache": "error",
