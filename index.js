@@ -61,7 +61,7 @@ module.exports = {
     "vue/v-bind-style": "error",
     "vue/v-on-style": "error",
     "vue/attributes-order": "error",
-    "vue/html-quotes": "single",
+    "vue/html-quotes": ["error", "single"],
     "vue/no-v-html": "warn",
     "vue/order-in-components": "error",
     "vue/this-in-template": ["error", "never"],
