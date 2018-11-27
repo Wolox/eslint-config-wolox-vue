@@ -3,6 +3,7 @@
 module.exports = {
   plugins: ["vue"],
   extends: ["wolox"],
+  parser: "vue-eslint-parser",
   rules: {
     "vue/no-async-in-computed-properties": "error",
     "vue/no-dupe-keys": "error",
