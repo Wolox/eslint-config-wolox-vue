@@ -75,6 +75,7 @@ module.exports = {
     "vue/multiline-html-element-content-newline": "error",
     "vue/no-spaces-around-equal-signs-in-attribute": "error",
     "vue/script-indent": "error",
-    "vue/singleline-html-element-content-newline": "off"
+    "vue/singleline-html-element-content-newline": "off",
+    "semi": ["error", "never"]
   }
 };
