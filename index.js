@@ -5,6 +5,10 @@ module.exports = {
   extends: ["wolox"],
   parser: "vue-eslint-parser",
   rules: {
+    // Eslint Stylistic Issues - https://eslint.org/docs/rules/#stylistic-issues
+    "semi": ["error", "never"],
+
+    // Eslint plugin vue Issues - https://github.com/vuejs/eslint-plugin-vue#bulb-rules
     "vue/no-async-in-computed-properties": "error",
     "vue/no-dupe-keys": "error",
     "vue/no-duplicate-attributes": "error",
@@ -75,7 +79,6 @@ module.exports = {
     "vue/multiline-html-element-content-newline": "error",
     "vue/no-spaces-around-equal-signs-in-attribute": "error",
     "vue/script-indent": "error",
-    "vue/singleline-html-element-content-newline": "off",
-    "semi": ["error", "never"]
+    "vue/singleline-html-element-content-newline": "off"
   }
 };
