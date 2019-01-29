@@ -5,6 +5,10 @@ module.exports = {
   extends: ["wolox"],
   parser: "vue-eslint-parser",
   rules: {
+    // Eslint Stylistic Issues - https://eslint.org/docs/rules/#stylistic-issues
+    "semi": ["error", "never"],
+
+    // Eslint plugin vue Issues - https://github.com/vuejs/eslint-plugin-vue#bulb-rules
     "vue/no-async-in-computed-properties": "error",
     "vue/no-dupe-keys": "error",
     "vue/no-duplicate-attributes": "error",
