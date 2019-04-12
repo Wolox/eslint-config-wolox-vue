@@ -80,6 +80,12 @@ module.exports = {
     "vue/no-spaces-around-equal-signs-in-attribute": "error",
     "vue/script-indent": "error",
     "vue/singleline-html-element-content-newline": "off",
-     "prettier/prettier": ["error", { "printWidth": 110, "singleQuote": true, "semi": false }],
+    "prettier/prettier": ["error",
+      {
+        "printWidth": 110,
+        "singleQuote": true,
+        "semi": false
+      }
+    ]
   }
 };
